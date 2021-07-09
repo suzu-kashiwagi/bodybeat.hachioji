@@ -1,0 +1,817 @@
+.bg-dark {
+    background-color: #545A63 !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: ghostwhite !important;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+    height: 3rem;
+}
+
+.header-img {
+    height: 3rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.ms-logo {
+    margin-left: 1.8rem;
+}
+
+.nav-item {
+    font-size: 0.7rem;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.top {
+    background-image: url(original.jpeg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+}
+
+.top-img {
+    position: absolute;
+    height: 7rem;
+    filter: drop-shadow(0.4rem 0.4rem 0 #AFABAB);
+}
+
+.display-1 {
+    color: #333F50;
+    text-shadow: 0.2rem 0.4rem 0 #AFABAB;
+    font-family: "Arial Black", sans-serif;
+    border-bottom: 0.2rem solid #000000;
+    padding-bottom: 1rem;
+}
+
+.loc {
+    color: #333F50;
+    font-family: "Arial Black", sans-serif;
+}
+
+.highlight {
+    color: #333F50;
+    font-family: "MS ゴシック", monospace;
+    border-bottom: 0.5rem solid #309AA2;
+}
+
+.comment {
+    font-family: "游ゴシック";
+    font-size: 1.5rem;
+}
+
+.a {
+    color: ivory;
+    font-size: 1.2rem;
+    font-family: "游ゴシック";
+    box-shadow: 0.2rem 0.2rem lightgray;
+    cursor: pointer;
+    border: none;
+    transition: all 1s;
+}
+
+.a:hover {
+    opacity: 0.6;
+}
+
+.a:active {
+    position: relative;
+    top: 0.2rem;
+    left: 0.2rem;
+    box-shadow: none;
+}
+
+.instagram-button {
+    background-color: #CE9FE1;
+}
+
+.form-button {
+    background-color: #7DBDB1;
+}
+
+.covid {
+    font-family: "游ゴシック";
+}
+
+.covid-img{
+    width: 100%;
+}
+
+.trainer {
+    background-color: #8497B0;
+}
+
+
+.top-triangle {
+    border-right: 210px solid transparent;
+    border-top: 350px solid white;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.parallelogram {
+    width: 55%;
+    height: 640px;
+    background: white;
+    transform: skewX(-10deg);
+    position: absolute;
+    box-shadow: 30px 30px 0 #ADB9CA;
+    margin-top: 50px;
+    color: white;
+}
+
+.kyohei-img{
+    position: absolute;
+    z-index: 0;
+}
+
+@media(max-width:1024px) {
+    .parallelogram {
+        height: 630px;
+    }
+}
+
+@media(max-width:800px) {
+    .parallelogram {
+        height: 550px;
+    }
+}
+
+@media(max-width:420px) {
+    .top-triangle {
+        border-right: 110px solid transparent;
+        margin-top: 20px;
+    }
+
+    .parallelogram {
+        width: 70%;
+        transform: skewX(-10deg);
+        height: 350px;
+        box-shadow: 20px 20px 0 #ADB9CA;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:414px) {
+    .parallelogram {
+        height: 330px;
+    }
+}
+
+@media(max-width:360px) {
+    .top-triangle {
+        border-top: 250px solid white;
+    }
+
+    .parallelogram {
+        height: 280px;
+        box-shadow: 10px 10px 0 #ADB9CA;
+    }
+}
+
+@media(max-width:320px) {
+    .parallelogram {
+        height: 270px;
+    }
+}
+
+.text-gold {
+    font-family: "MS ゴシック";
+    color: #BF9000;
+    font-size: 60px;
+    position: relative;
+    text-shadow: 2px 4px 0 #545A63;
+    margin-left: 600px;
+}
+
+.text1 {
+    padding-top: 100px;
+}
+
+.text-gold-small {
+    font-size: 30px;
+    text-shadow: 2px 2px 0 #545A63;
+}
+
+.text3 {
+    padding-top: 40px;
+}
+
+.text-blue {
+    font-size: 35px;
+    margin: 0px 20px 0px 600px;
+    color: #dbd961;
+    position: relative;
+    font-family: "游ゴシック";
+}
+
+.number {
+    font-size: 55px;
+}
+
+.show {
+    font-size: 50px;
+}
+
+.desc {
+    font-size: 19px;
+    text-align: left;
+    position: relative;
+    margin-left: 750px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    font-family: "游ゴシック";
+}
+
+.kyohei-img{
+    padding-top: 5%;
+    width:27%;
+    margin-left: 5%;
+}
+
+@media(max-width:1024px) {
+    .kyohei-img{
+        padding-top: 10%;
+        width: 35%;
+    }
+
+    .text-gold {
+        margin-left: 400px;
+    }
+
+    .text-blue {
+        margin: 0px 20px 0px 300px;
+    }
+
+    .desc {
+        margin-left: 300px;
+        padding-bottom: 100px;
+    }
+}
+
+@media(max-width:800px) {
+    .kyohei-img{
+        padding-top:15%;
+        width: 38%;
+    }
+
+    .text-gold {
+        margin-left: 280px;
+        font-size: 40px;
+    }
+
+    .text-blue {
+        margin: 0px 10px 0px 180px;
+        font-size: 25px;
+    }
+
+    .number {
+        font-size: 40px;
+    }
+
+    .show {
+        font-size: 35px;
+    }
+
+    .desc {
+        margin-left: 130px;
+    }
+}
+
+@media(max-width:420px) {
+    .kyohei-img{
+        width: 45%;
+    }
+
+    .text-gold {
+        margin-left:180px;
+        font-size: 20px;
+        text-shadow: 1px 2px 0 #545A63;
+    }
+
+    .text1 {
+        padding-top: 45px;
+        text-shadow: 1px 1px 0 #545A63;
+    }
+
+    .text-gold-small {
+        font-size: 15px;
+    }
+
+    .text-blue {
+        font-size: 15px;
+        margin: 0px 20px 0px 90px;
+        text-align: right;
+    }
+
+    .number {
+        font-size: 30px;
+    }
+
+    .show {
+        font-size: 25px;
+    }
+
+    .desc {
+        font-size: 10px;
+        margin-left: 30px;
+        padding-bottom: 45px;
+    }
+}
+
+@media(max-width:360px) {
+    .kyohei-img{
+        width: 48%;
+        padding-top: 10%;
+    }
+
+    .number {
+        font-size: 20px;
+    }
+
+    .show {
+        font-size: 18px;
+    }
+
+    .desc {
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width:320px) {
+    .kyohei-img{
+        padding-top: 13%;
+    }
+    
+    .text-gold{
+        margin-left: 150px;
+    }
+
+    .text-blue {
+        font-size: 10px;
+    }
+
+    .number {
+        font-size: 15px;
+    }
+
+    .show {
+        font-size: 15px;
+    }
+
+    .text3 {
+        padding-top: 20px;
+    }
+
+    .desc {
+        padding-bottom: 35px;
+    }
+}
+
+.contents {
+    border-bottom: 0.2rem solid #8497B0;
+    color: #1F4E79;
+    text-shadow: 0.3rem 0.3rem 0.2rem #c0cddf;
+}
+
+.price-desc {
+    font-family: "游ゴシック";
+}
+
+.course {
+    border-bottom: 0.5rem solid #E0CA85;
+}
+
+.price-name {
+    text-shadow: 0.3rem 0.2rem 0 #7b818a;
+    font-family: "ＭＳ 明朝";
+    color: white;
+}
+
+.course-name {
+    text-shadow: 0.3rem 0.2rem 0 #7b818a;
+    font-family: "ＭＳ 明朝";
+    color: white;
+    /* font-size: 45px; */
+}
+
+.short {
+    background-image: url(short.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #aee6fa;
+    background-blend-mode: multiply;
+}
+
+.light {
+    background-image: url(light.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #a4f8e6;
+    background-blend-mode: multiply;
+}
+
+.plus {
+    background-image: url(plus.png);
+    background-size: cover;
+    background-position: bottom;
+    background-color: #f7ef84;
+    background-blend-mode: multiply;
+}
+
+.expert {
+    background-image: url(expert.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #DECCE5;
+    background-blend-mode: multiply;
+}
+
+.contract {
+    font-family: "MS ゴシック";
+    color: #3B3838;
+
+}
+
+.triangle {
+    color: #D0CECE;
+}
+
+.price-img {
+    height: 13rem;
+    filter: invert(50%) drop-shadow(1rem 0.8rem 0 black);
+}
+
+@media(max-width:800px){
+    .price-img{
+        height: 10rem;
+    }
+}
+
+@media(max-width:420px){
+    .price-img{
+        height: 5rem;
+    }
+}
+
+.contract-desc {
+    font-family: "MS ゴシック";
+    color: #3B3838;
+    background: linear-gradient(180deg, white 0%, white 60%, #FFFF8A 40%, #FFFF8A 100%)
+}
+
+.rotate {
+    transform: rotate(-10deg);
+}
+
+.ms-gothic {
+    font-family: "MS ゴシック";
+}
+
+@media(max-width:420px){
+    .contract-desc{
+        background: linear-gradient(180deg, white 0%, white 80%, #FFFF8A 20%, #FFFF8A 100%)
+    }
+}
+
+.half {
+    color: #22BCA8;
+}
+
+.campaign {
+    max-width: 96vw;
+    z-index: -1;
+}
+
+.table-comparison th,
+.table-comparison td {
+    border: solid 0.2rem white
+}
+
+.table-comparison th {
+    background-color: #8497B0;
+    color: white;
+}
+
+.table-comparison td {
+    font-family: "游ゴシック";
+    background-color: #F0F0F0;
+}
+
+.BodyBeat-name {
+    background-color: #FFC000 !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0.2rem 0.2rem 0 gray;
+    border-left: double 0.4rem white !important;
+}
+
+.td-title {
+    background-color: #DAE3F3 !important;
+    color: black !important;
+}
+
+.BodyBeat {
+    background-color: #FFF2CC !important;
+    border-left: double 0.4rem white !important;
+}
+
+.table-responsive * {
+    white-space: nowrap;
+}
+
+.main-comment {
+    background-image: url(girl.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-color: rgba(236, 228, 228, 0.151);
+    background-blend-mode: lighten;
+    color: white;
+    font-family: "游ゴシック";
+}
+
+.mc-top {
+    text-shadow: 0.2rem 0.3rem 0.2rem #323232;
+    background: linear-gradient(transparent 85%, #309AA2 85%);
+}
+
+.mc-bottom {
+    text-shadow: 0.2rem 0.2rem 0.2rem #323232;
+}
+
+.guarantee-left {
+    background-color: #FFE699;
+}
+
+.guarantee-right {
+    background-color: #D2F0F2;
+}
+
+.lowest-price-guarantee {
+    font-family: "游ゴシック";
+}
+
+.lowest-price {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #E66D2A;
+    text-shadow: 0.1rem 0.1rem 0px #F4B183;
+}
+
+.switch {
+    font-family: "游ゴシック";
+}
+
+.guarantee-content {
+    font-family: "游ゴシック";
+    text-shadow: 0.1rem 0.1rem 0px #F4B183;
+    color: #E66D2A;
+    background: linear-gradient(transparent 65%, #FFFBF1 65%);
+}
+
+.guarantee-list{
+    list-style: none;
+}
+
+.moreover {
+    font-family: "游ゴシック";
+}
+
+.guarantee-desc {
+    font-family: "游ゴシック";
+}
+
+.anxiety {
+    font-family: "游ゴシック";
+}
+
+.refund {
+    font-family: "游ゴシック";
+    color: #309AA2;
+    text-shadow: 0.1rem 0.1rem 0 #C9C9C9;
+    border-bottom: solid 0.2rem #767171;
+}
+
+.refund-comment {
+    font-family: "游ゴシック";
+}
+
+.refund-desc {
+    font-family: "游ゴシック";
+}
+
+.content-name {
+    color: #595959;
+    font-family: "ヒラギノ角ゴ Pro W3";
+    text-shadow: 0.2rem 0.3rem 0 #CACACA;
+}
+
+.room {
+    background-image: url(original.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}
+
+.amenities {
+    background-image: url(amenities.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}
+
+.drink {
+    background-image: url(drink.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}
+
+.pnc {
+    background-image: url(pnc.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}
+
+.meal {
+    background-image: url(meal.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}
+
+.img-phone {
+    width: 80%;
+}
+
+.img-pc {
+    width: 70%;
+}
+
+.h-fixed-phone{
+    height:8rem ;
+}
+
+.h-fixed-pc {
+    height: 20rem;
+}
+
+.init-char {
+    color: #309AA2;
+}
+
+.line-support {
+    background-color: #E8E8EA;
+}
+
+.line-phone-img-phone{
+    height: 15rem;
+    position: absolute;
+    z-index: 0;
+}
+
+.line-phone-img-pc{
+    height: 28rem;
+}
+
+.line-top-comment {
+    color: #309AA2;
+    font-family: "Meiryo UI";
+    position: relative;
+    z-index: 1;
+}
+
+.line-support-desc {
+    font-family: "游ゴシック";
+    position: relative;
+    z-index: 1;
+}
+
+.line-bottom-comment {
+    font-family: "Meiryo UI";
+    color: #767171;
+}
+
+.join {
+    background-image: url(pexels.jpeg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+}
+
+.contents-of-join {
+    font-family: "游ゴシック";
+    color: ivory;
+    background-color: #8497B0;
+}
+
+.form {
+    font-family: "游ゴシック";
+    border: 0.3rem solid #8497B0;
+}
+
+.btn-form {
+    font-family: "游ゴシック";
+    color: white;
+    background-color: #8497B0;
+    box-shadow: 0.3rem 0.3rem lightgray;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.btn-form:hover {
+    opacity: 0.6;
+}
+
+.btn-form:active {
+    position: relative;
+    top: 0.3rem;
+    left: 0.3rem;
+    box-shadow: none;
+}
+
+.btn-bottom {
+    color: white;
+    font-family: "游ゴシック";
+    border: none;
+    cursor: pointer;
+    box-shadow: 0.6rem 0.6rem lightgray;
+    transition: all 1s;
+}
+
+.btn-bottom:hover {
+    opacity: 0.6;
+}
+
+.btn-bottom:active {
+    box-shadow: none;
+    position: relative;
+    top: 0.6rem;
+    left: 0.6rem;
+}
+
+.btn-line {
+    background-color: #7DBDB1;
+}
+
+.btn-instagram {
+    background-color: #D1A5E3;
+}
+
+.table-desc {
+    font-family: serif;
+}
+
+.fixed-bottom {
+    width: 0;
+    bottom: 1rem;
+}
+
+.back-button {
+    background-color: rgb(29, 150, 150);
+    opacity: 0.6;
+    color: white;
+    font-family: "游ゴシック";
+    cursor: pointer;
+    border: none;
+}
+
+.footer {
+    background-color: #8497B0;
+}
+
+.f-list {
+    list-style: none;
+}
+
+.f-list>a {
+    cursor: pointer;
+}
+
+#trainer,
+#price,
+#service,
+#ba,
+#voice,
+#form {
+    margin-top: -3rem;
+    padding-top: 3rem;
+}
