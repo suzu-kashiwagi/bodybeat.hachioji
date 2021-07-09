@@ -1,0 +1,1308 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="icon" href="https://s2.aconvert.com/convert/p3r68-cdx67/arl5h-k0obg-002.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://s2.aconvert.com/convert/p3r68-cdx67/arl5h-k0obg-002.ico">
+    <link rel="icon" type="image/png" href="https://s2.aconvert.com/convert/p3r68-cdx67/arl5h-k0obg-002.ico"
+        sizes="192x192">
+    <title>BodyBeat</title>
+    <script src="https://www.google.com/recaptcha/api.js?hl=ja"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-0 sticky-top">
+        <div class="container-lg">
+            <a class="navbar-brand py-0" href="#top">
+                <img class="header-img" src="logo.png" alt="logo">
+                <span class="ms-logo">
+                    BodyBeat
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="location.href='#trainer'">トレーナー紹介</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="location.href='#price'">コース料金</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="location.href='#service'">サービス内容</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="location.href='#ba'">お客様ビフォーアフター</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="location.href='#voice'">お客様の声</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="location.href='#form'">お問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="top pt-4 pb-5 text-center">
+        <h1 class="display-1 fw-bold d-inline-block px-4">
+            Body Beat
+            <img class="top-img d-none d-sm-inline ms-3 d-inline-block" src="woman.png" alt="woman">
+        </h1>
+        <h6 class="loc mb-5">Personal GYM @Hachioji</h6>
+        <div>
+            <h3 class="highlight d-inline pb-1 px-2 fw-bold">八王子駅徒歩 5 分</h3>
+        </div>
+        <div class="my-4">
+            <h3 class="highlight d-inline pb-1 px-2 fw-bold">業界最安値!!</h3>
+        </div>
+        <div>
+            <h3 class="highlight d-inline pb-1 px-2 fw-bold">業界初生涯サポート付き</h3>
+        </div>
+    </div>
+    <div class="pt-4 text-center">
+        <p class="fst-italic comment mb-0">
+            仕事、子育てをしながら
+        </p>
+        <p class="fst-italic comment">
+            <span class="d-inline-block">
+                リバウンドなしの
+            </span>
+            <span class="d-inline-block">
+                BodyBeat の
+            </span><span class="d-inline-block">
+                ノウハウを
+            </span><span class="d-inline-block">
+                お伝えします。
+            </span>
+        </p>
+    </div>
+    <div class="row mx-auto mb-5">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 mb-3">
+            <button class="form-button a w-100 py-3 fw-bold" onclick="location.href='#form'">
+                <span class="d-inline-block">
+                    無料カウンセリングは
+                </span><span class="d-inline-block">
+                    こちら
+                </span>
+            </button>
+        </div>
+        <div class="col-md-4 mb-3">
+            <button class="instagram-button a w-100 py-3 fw-bold"
+                onclick="window.open('https://www.instagram.com/bodybeat_hachioji','_blank')">
+                Instagram
+            </button>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="covid text-center lead mb-5">
+        <p class="mb-0">
+            <span class="d-inline-block">
+                新型コロナ ウイルス対策
+            </span><span class="d-inline-block">
+                について皆様に安心して
+            </span><span class="d-inline-block">
+                通っていただけるよう
+            </span>
+        </p>
+        <p>
+            <span class="d-inline-block">
+                以下の対策を
+            </span><span class="d-inline-block">
+                実施しております。
+            </span>
+        </p>
+        <img class="covid-img" src="コロナ画像改.jpg">
+    </div>
+    <div id="trainer">
+
+        <div class="trainer mb-5">
+            <div class="top-triangle"></div>
+            <div class="parallelogram"></div>
+            <img class="kyohei-img" src="kyohei.jpg">
+            <p class="text-gold fw-bold mb-0 text1">プロトレーナー</p>
+            <p class="text-gold fw-bold mb-0">塩澤　恭平</p>
+            <p class="text-gold fw-bold mb-0 text-gold-small">Kyohei Shiozawa</p>
+            <p class="text-blue fw-bold text3">
+                <span class="d-inline-block">
+                    年間
+                </span>
+                <span class="d-inline-block number">
+                    1300
+                </span>
+                <span class="d-inline-block">
+                    本
+                </span><span class="d-inline-block">
+                    のセッションを担当
+                </span>
+            </p>
+            <p class="text-blue fw-bold">
+                <span class="d-inline-block">
+                    年間
+                </span>
+                <span class="d-inline-block show">
+                    最優秀トレーナー賞
+                </span>
+                <span class="d-inline-block">
+                    を受賞
+                </span>
+            </p>
+            <div class="desc">
+                <p class="mb-0">
+                    <span class="d-inline-block">
+                        ホームページをご覧いただき
+                    </span><span class="d-inline-block">
+                        有難うございます。
+                    </span>
+                </p>
+                <p class="mb-0">
+                    <span class="d-inline-block">
+                        私はボディメイク、ウェイトトレーニングは
+                    </span><span class="d-inline-block">
+                        習い事だと考えております。
+                    </span>
+                </p>
+                <p class="mb-0">
+                    <span class="d-inline-block">
+                        ぜひお客様の理想の身体を
+                    </span><span class="d-inline-block">
+                        サポートさせて頂きたいです！
+                    </span>
+                </p>
+                <p class="mb-0">
+                    <span class="d-inline-block">
+                        お気軽に無料カウンセリング
+                    </span><span class="d-inline-block">
+                        お申込みください！
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="price mb-5" id="price">
+        <div class="text-center mb-5">
+            <p class="contents d-inline px-4 fs-1 fw-bold">コース料金</p>
+            <p class="price-desc fs-2 mt-4">
+                <span class="d-inline-block">
+                    BodyBeatでは、
+                </span>
+                <span class="d-inline-block course fs-1">
+                    4 コース
+                </span>
+                <span class="d-inline-block">
+                    からお選びいただけます。
+                </span>
+            </p>
+        </div>
+        <div class="px-md-5 w-100">
+            <div class="row mx-auto">
+                <div class="col-md-6 pt-3 short">
+                    <p class="price-name text-center fs-2 fw-bold">月額 <span class="display-3 fw-bold">48,000</span> 円
+                    </p>
+                    <p class="course-name mb-0 fs-2 fst-italic fw-bold">ショート 45</p>
+                </div>
+                <div class="col-md-6 pt-3 light">
+                    <p class="price-name text-center fs-2 fw-bold">月額 <span class="display-3 fw-bold">72,000</span> 円
+                    </p>
+                    <p class="course-name mb-0 fs-2 fst-italic fw-bold">スタンダードLight 70</p>
+                </div>
+            </div>
+        </div>
+        <div class="px-md-5 w-100 mb-5">
+            <div class="row mx-auto">
+                <div class="col-md-6 pt-3 plus">
+                    <p class="price-name text-center fs-2 fw-bold">月額 <span class="display-3 fw-bold">96,000</span> 円
+                    </p>
+                    <p class="course-name mb-0 fs-2 fst-italic fw-bold">スタンダードPlus 90</p>
+                </div>
+                <div class="col-md-6 pt-3 expert">
+                    <p class="price-name text-center fs-2 fw-bold">月額 <span class="display-3 fw-bold">120,000</span> 円
+                    </p>
+                    <p class="course-name mb-0 fs-2 fst-italic fw-bold">エキスパート 120</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <p class="contract display-5 fw-bold d-inline-block mb-0">
+                2 か月契約
+            </p>
+            <span class="px-3 triangle display-4 d-none d-md-inline">▶</span>
+            <div class="triangle display-4 d-md-none">▼</div>
+            <p class="contract display-5 fw-bold d-inline-block">
+                入会金 <span class="display-2 fw-bold">30,000</span> 円
+            </p>
+        </div>
+        <div class="text-center">
+            <img class="price-img d-none d-md-inline" src="bodybuilder.png" alt="bodybuilder">
+            <div class="d-inline-block campaign m-4">
+                <div>
+                    <p class="rotate d-inline-block px-4 fw-bold fs-1">
+                        <span class="d-none d-sm-inline-block contract-desc">
+                            3 か月ご契約で
+                        </span><span class="d-sm-none d-inline-block ms-gothic">
+                            3 か月ご契約で
+                        </span><span class="d-inline-block contract-desc">
+                            入会金<span class="half fw-bold display-4">半額</span>!!
+                        </span>
+                    </p>
+                </div>
+                <p class="rotate d-inline-block px-4 fw-bold fs-1 mt-4">
+                    <span class="d-none d-sm-inline-block contract-desc">
+                        4 か月ご契約で
+                    </span><span class="d-sm-none d-inline-block ms-gothic">
+                        4 か月ご契約で
+                    </span><span class="d-inline-block contract-desc">
+                        入会金<span class="half fw-bold display-4">無料</span>!!
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mb-4">
+        <p class="contents d-inline px-4 fs-1 fw-bold">他社比較</p>
+    </div>
+    <div class="text-center">
+        <div class="d-none d-md-inline-block">
+            <table class="table table-comparison text-center fs-5">
+                <thead>
+                    <tr class="title align-middle">
+                        <th scope="col"></th>
+                        <th scope="col" class="fs-1 BodyBeat-name">BodyBeat</th>
+                        <th scope="col" class="fs-3">大手 A 社</th>
+                        <th scope="col" class="fs-3">大手 B 社</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="align-middle">
+                        <th class="td-title">期間（回数）</th>
+                        <td class="BodyBeat">1か月（ 8 回）</td>
+                        <td>1 か月（ 8 回）</td>
+                        <td>1 か月（ 8 回）</td>
+                    </tr>
+                    <tr class="align-middle">
+                        <th scope="row" class="td-title">
+                            <span class="d-inline-block">
+                                トレーニング
+                            </span><span class="d-inline-block">
+                                時間
+                            </span>
+                        </th>
+                        <td class="BodyBeat">70 分</td>
+                        <td>50 分</td>
+                        <td>75 分</td>
+                    </tr>
+                    <tr class="align-middle">
+                        <th scope="row" class="td-title">コース料金</th>
+                        <td class="BodyBeat">
+                            <div>
+                                72,000 円
+                            </div>
+                            <div>
+                                （税抜）
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                174,000 円
+                            </div>
+                            <div>
+                                （税抜）
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                98,000 円
+                            </div>
+                            <div>
+                                （税抜）
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="align-middle">
+                        <th scope="row" class="td-title">入会金</th>
+                        <td class="BodyBeat">
+                            <div>
+                                30,000 円
+                            </div>
+                            <div>
+                                （税抜）
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                50,000 円
+                            </div>
+                            <div>
+                                （税抜）
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                38,000 円
+                            </div>
+                            <div>
+                                （税抜）
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="align-middle">
+                        <th scope="row" class="td-title">
+                            <span class="d-inline-block">
+                                プロテイン
+                            </span><span class="d-inline-block">
+                                提供
+                            </span>
+                        </th>
+                        <td class="BodyBeat">無料提供</td>
+                        <td>なし</td>
+                        <td>1 か月間無料</td>
+                    </tr>
+                    <tr class="align-middle">
+                        <th scope="row" class="td-title">指導方法</th>
+                        <td class="BodyBeat">
+                            <div>
+                                <span class="d-inline-block">
+                                    1 人のトレーナー
+                                </span><span class="d-inline-block">
+                                    が担当
+                                </span>
+                            </div>
+                            <div class="my-1">
+                                マンツーマン指導
+                            </div>
+                            <div>
+                                完全個室
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <span class="d-inline-block">
+                                    1 人のトレーナー
+                                </span><span class="d-inline-block">
+                                    が担当
+                                </span>
+                            </div>
+                            <div class="my-1">
+                                マンツーマン指導
+                            </div>
+                            <div>
+                                完全個室
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <span class="d-inline-block">
+                                    2 人以上のトレーナー
+                                </span><span class="d-inline-block">
+                                    が担当
+                                </span>
+                            </div>
+                            <div class="my-1">
+                                マンツーマン指導
+                            </div>
+                            <div>
+                                完全個室
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="table-responsive d-md-none">
+        <table class="table table-comparison text-center">
+            <thead>
+                <tr class="title align-middle">
+                    <th scope="col"></th>
+                    <th scope="col" class="fs-1 BodyBeat-name">BodyBeat</th>
+                    <th scope="col" class="fs-3">大手 A 社</th>
+                    <th scope="col" class="fs-3">大手 B 社</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="align-middle">
+                    <th class="td-title">期間（回数）</th>
+                    <td class="BodyBeat">1か月（ 8 回）</td>
+                    <td>1 か月（ 8 回）</td>
+                    <td>1 か月（ 8 回）</td>
+                </tr>
+                <tr class="align-middle">
+                    <th scope="row" class="td-title">トレーニング時間</th>
+                    <td class="BodyBeat">70 分</td>
+                    <td>50 分</td>
+                    <td>75 分</td>
+                </tr>
+                <tr class="align-middle">
+                    <th scope="row" class="td-title">コース料金</th>
+                    <td class="BodyBeat">72,000 円（税抜）</td>
+                    <td>174,000 円（税抜）</td>
+                    <td>98,000 円（税抜）</td>
+                </tr>
+                <tr class="align-middle">
+                    <th scope="row" class="td-title">入会金</th>
+                    <td class="BodyBeat">30,000 円（税抜）</td>
+                    <td>50,000 円（税抜）</td>
+                    <td>38,000 円（税抜）</td>
+                </tr>
+                <tr class="align-middle">
+                    <th scope="row" class="td-title">プロテイン提供</th>
+                    <td class="BodyBeat">無料提供</td>
+                    <td>なし</td>
+                    <td>1 か月間無料</td>
+                </tr>
+                <tr class="align-middle">
+                    <th scope="row" class="td-title">指導方法</th>
+                    <td class="BodyBeat">
+                        <div>
+                            <div>
+                                1 人のトレーナー
+                            </div>
+                            <div>
+                                が担当
+                            </div>
+                        </div>
+                        <div class="my-1">
+                            マンツーマン指導
+                        </div>
+                        <div>
+                            完全個室
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <div>
+                                1 人のトレーナー
+                            </div>
+                            <div>
+                                が担当
+                            </div>
+                        </div>
+                        <div class="my-1">
+                            マンツーマン指導
+                        </div>
+                        <div>
+                            完全個室
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <div>
+                                2 人以上のトレーナー
+                            </div>
+                            <div>
+                                が担当
+                            </div>
+                        </div>
+                        <div class="my-1">
+                            マンツーマン指導
+                        </div>
+                        <div>
+                            完全個室
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="main-comment my-5 pb-4">
+        <div class="text-center pt-5">
+            <p class="fs-1 fw-bold d-inline-block my-5">
+                <span class="d-inline-block mc-top">
+                    たくさんの方々に
+                </span><span class="d-inline-block mc-top">
+                    理想のカラダを
+                </span><span class="d-inline-block mc-top">
+                    手に入れて欲しい
+                </span>
+            </p>
+        </div>
+        <p class="mc-bottom fs-2 text-center">
+            <span class="d-inline-block">
+                その思いだけで、
+            </span><span class="d-inline-block">
+                この価格に
+            </span><span class="d-inline-block">
+                設定しました。
+            </span>
+        </p>
+        <p class="mc-bottom fs-2 text-center pb-4">
+            <span class="d-inline-block">
+                延長コースにて
+            </span><span class="d-inline-block">
+                おかげさまで
+            </span><span class="d-inline-block">
+                お客様リピート率
+            </span>
+            <span class="d-inline-block">
+                2020 年延長率
+            </span>
+            <span class="d-inline-block">
+                90 ％達成
+            </span>
+        </p>
+    </div>
+    <div class="text-center mb-4">
+        <p class="contents d-inline px-4 fs-1 fw-bold">安心の 2 つの保証</p>
+    </div>
+    <div class="container px-0 mb-5">
+        <div class="row mx-auto">
+            <div class="col-md-6 mb-3">
+                <div class="guarantee-left h-100">
+                    <p class="lowest-price-guarantee fw-bold pt-5 ps-4 fs-3">
+                        <span class="d-inline-block">
+                            最低価格保証
+                        </span><span class="d-inline-block">
+                            （ 1 か月 4 回）
+                        </span>
+                    </p>
+                    <p class="lowest-price fst-italic display-3 text-end pe-5">¥24,000~</p>
+                    <p class="switch ps-4 fs-3">ジム乗り換え割で</p>
+                    <div class="text-center px-1">
+                        <p class="fs-2 fw-bold fst-italic d-inline-block px-3">
+                            <span class="d-inline-block guarantee-content">
+                                入会金 1 万円引き
+                            </span><span class="d-inline-block guarantee-content">
+                                キャンペーン
+                            </span>
+                        </p>
+                        <p class="moreover fs-3">さらに</p>
+                        <p class="guarantee-content fs-2 fw-bold fst-italic d-inline-block px-3">
+                            ウエスト減少保証
+                        </p>
+                    </div>
+                    <p class="guarantee-desc fs-6 p-2 text-center">
+                        <span class="d-inline-block">
+                            減量スタートから
+                        </span><span class="d-inline-block">
+                            二か月後に
+                        </span><span class="d-inline-block">
+                            ウエストの数値に
+                        </span><span class="d-inline-block">
+                            変動が無い場合、
+                        </span><span class="d-inline-block">
+                            延長トレーニング
+                        </span><span class="d-inline-block">
+                            （週 1.1 か月）を
+                        </span><span class="d-inline-block">
+                            無料で
+                        </span><span class="d-inline-block">
+                            受けられます。
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="guarantee-right h-100">
+                    <p class="fw-bold fs-3 pt-5 ps-4 anxiety">続くか不安な方も安心</p>
+                    <div class="text-center mb-5">
+                        <p class="refund px-4 display-4 fw-bold d-inline">中途返金保証</p>
+                    </div>
+                    <p>
+                        <div class="refund-comment fs-1 text-center">
+                            安心・信頼・満足
+                        </div>
+                        <div class="refund-comment fs-1 text-center">
+                            してもらうため
+                        </div>
+                        <div class="refund-comment fs-1 text-center">
+                            <span class="d-inline-block">
+                                このサービスを
+                            </span><span class="d-inline-block">
+                                作りました
+                            </span>
+                        </div>
+                    </p>
+                    <p>
+                        <div class="refund-desc fs-5 p-2 text-center">
+                            <span class="d-inline-block">
+                                チケット有効期限内
+                            </span><span class="d-inline-block">
+                                であれば
+                            </span><span class="d-inline-block">
+                                いつでも返金対応
+                            </span><span class="d-inline-block">
+                                いたします。
+                            </span>
+                        </div>
+                        <div class="refund-desc fs-5 p-2 text-center">
+                            <span class="d-inline-block">
+                                どんな理由でも
+                            </span><span class="d-inline-block">
+                                大丈夫です。
+                            </span>
+                        </div>
+                        <div class="refund-desc fs-5 p-2 m-0 text-center">
+                            <p>トレーナーと合わない<br>思っていたのと違った<br>通えなくなった</p>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="service">
+        <!-- スマホ用 -->
+        <div class="services mb-5 d-md-none">
+            <div class="text-center mb-4">
+                <p class="contents d-inline px-4 fs-1 fw-bold">サービス内容</p>
+            </div>
+            <div class="mb-3">
+                <div class="float-end me-4 h-fixed-phone d-flex align-items-end">
+                    <div>
+                        <p class="content-name fs-3 fw-bold mb-0">
+                            <span class="d-inline-block">
+                                <span class="init-char display-3 fw-bold">完</span>全個室
+                            </span><span class="d-inline-block">
+                                プライベート空間
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="room h-fixed-phone img-phone"></div>
+            </div>
+            <div class="mb-3">
+                <div class="float-start ms-4 h-fixed-phone d-flex align-items-end">
+                    <div>
+                        <p class="content-name fs-6 fw-bold mb-0">
+                            <span class="d-inline-block">
+                                上下ウェア・シューズ
+                            </span><span class="d-inline-block">
+                                無料レンタル
+                            </span><span class="d-inline-block">
+                                シャワールーム完備
+                            </span>
+                        </p>
+                        <p class="content-name fs-3 fw-bold mb-0">
+                            <span class="init-char display-3 fw-bold">充</span>実のアメニティ
+                        </p>
+                    </div>
+                </div>
+                <div class="amenities ms-auto h-fixed-phone img-phone"></div>
+            </div>
+            <div class="mb-3">
+                <div class="float-end me-4 h-fixed-phone d-flex align-items-end">
+                    <div>
+                        <p class="content-name fs-6 fw-bold mb-0">
+                            <span class="d-inline-block">
+                                ミネラルウォーター・
+                            </span><span class="d-inline-block">
+                                プロテイン
+                            </span>
+                        </p>
+                        <p class="content-name fs-3 fw-bold text-end mb-0">
+                            <span class="init-char display-3 fw-bold">無</span>料提供
+                        </p>
+                    </div>
+                </div>
+                <div class="drink h-fixed-phone img-phone"></div>
+            </div>
+            <div class="mb-3">
+                <div class="float-start ms-4 h-fixed-phone d-flex align-items-end">
+                    <div>
+                        <p class="content-name fs-3 fw-bold mb-0">
+                            お<span class="init-char display-3 fw-bold">子</span>様連れ可能
+                        </p>
+                    </div>
+                </div>
+                <div class="pnc ms-auto h-fixed-phone img-phone"></div>
+            </div>
+            <div>
+                <div class="float-end me-4 h-fixed-phone d-flex align-items-end">
+                    <div>
+                        <p class="content-name fs-6 fw-bold mb-0">
+                            <span class="d-inline-block">
+                                お客様の
+                            </span><span class="d-inline-block">
+                                目的に合わせた
+                            </span><span class="d-inline-block">
+                                お客様だけの
+                            </span>
+                        </p>
+                        <p class="content-name fs-3 fw-bold mb-0">
+                            <span class="d-inline-block">
+                                オリジナル
+                            </span><span class="d-inline-block">
+                                <span class="init-char display-3 fw-bold">食</span>事サポート
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="meal h-fixed-phone img-phone"></div>
+            </div>
+        </div>
+        <!-- pc -->
+        <div class="services mb-5 d-none d-md-block">
+            <div class="text-center mb-4">
+                <p class="contents d-inline px-4 fs-1 fw-bold">サービス内容</p>
+            </div>
+            <div class="mb-3">
+                <div class="float-end me-4 h-fixed-pc d-flex align-items-end">
+                    <div>
+                        <p class="content-name display-4 fw-bold">
+                            <span class="d-inline-block">
+                                <span class="init-char display-3 fw-bold">完</span>全個室
+                            </span><span class="d-inline-block">
+                                プライベート空間
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="room h-fixed-pc img-pc"></div>
+            </div>
+            <div class="mb-3">
+                <div class="float-start ms-4 h-fixed-pc d-flex align-items-end">
+                    <div>
+                        <p class="content-name fs-2 fw-bold">
+                            <span class="d-inline-block">
+                                上下ウェア・シューズ
+                            </span><span class="d-inline-block">
+                                無料レンタル
+                            </span><span class="d-inline-block">
+                                シャワールーム完備
+                            </span>
+                        </p>
+                        <p class="content-name display-4 fw-bold">
+                            <span class="init-char display-3 fw-bold">充</span>実のアメニティ
+                        </p>
+                    </div>
+                </div>
+                <div class="amenities ms-auto h-fixed-pc img-pc"></div>
+            </div>
+            <div class="mb-3">
+                <div class="float-end me-4 h-fixed-pc d-flex align-items-end">
+                    <div>
+                        <p class="content-name fs-2 fw-bold">
+                            <span class="d-inline-block">
+                                ミネラルウォーター・
+                            </span><span class="d-inline-block">
+                                プロテイン
+                            </span>
+                        </p>
+                        <p class="content-name display-4 fw-bold">
+                            <span class="init-char display-3 fw-bold">無</span>料提供
+                        </p>
+                    </div>
+                </div>
+                <div class="drink h-fixed-pc img-pc"></div>
+            </div>
+            <div class="mb-3">
+                <div class="float-start ms-4 h-fixed-pc d-flex align-items-end">
+                    <div>
+                        <p class="content-name display-4 fw-bold">
+                            お<span class="init-char display-3 fw-bold">子</span>様連れ可能
+                        </p>
+                    </div>
+                </div>
+                <div class="pnc ms-auto h-fixed-pc img-pc"></div>
+            </div>
+            <div>
+                <div class="float-end me-4 h-fixed-pc d-flex align-items-end">
+                    <div>
+                        <p class="content-name fs-2 fw-bold">
+                            <span class="d-inline-block">
+                                お客様の
+                            </span><span class="d-inline-block">
+                                目的に合わせた
+                            </span><span class="d-inline-block">
+                                お客様だけの
+                            </span>
+                        </p>
+                        <p class="content-name display-4 fw-bold">
+                            <span class="d-inline-block">
+                                オリジナル
+                            </span><span class="d-inline-block">
+                                <span class="init-char display-3 fw-bold">食</span>事サポート
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="meal h-fixed-pc img-pc"></div>
+            </div>
+        </div>
+    </div>
+    <div class="before-after mb-3" id="ba">
+        <div class="text-center mb-4">
+            <p class="contents d-inline px-4 fs-1 fw-bold">Before After</p>
+        </div>
+    </div>
+
+    <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="beforeafter.jpg" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="beforeafter2.jpg" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="beforeafter3.png" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="beforeafter4.png" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="beforeafter5.jpg" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="beforeafter6.jpg" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="beforeafter7.jpg" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="beforeafter8.jpg" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="beforeafter9.jpg" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="beforeafter10.jpg" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="beforeafter11.jpg" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="beforeafter12.jpg" class="d-block w-50 mx-auto" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <div class="comment-of-guest mb-3" id="voice">
+        <div class="text-center mt-4 mb-4">
+            <p class="contents d-inline px-4 fs-1 fw-bold">お客様の声</p>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="お客様の声1.jpg" class="d-block w-50 mx-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="お客様の声2.jpg" class="d-block w-50 mx-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="お客様の声3.jpg" class="d-block w-50 mx-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+
+    </div>
+    <div class="line-support row mx-auto mb-5">
+        <!-- スマホ -->
+        <div class="d-md-none d-block">
+            <img class="line-phone-img-phone" src="phone.jpg">
+            <div class="line-top-comment fs-2 fw-bold mt-5 text-end">
+                聞きたいときに
+                <div></div>
+                <div class="ps-1 d-inline-block line-top-comment fs-2 fw-bold">
+                    トレーナーにすぐ聞ける
+                    <div class="ms-1 line-top-comment fs-2 fw-bold">ラインでの食事サポート</div>
+                </div>
+            </div>
+            <p class="line-support-desc text-center fs-6 mt-4">
+                <span class="d-inline-block">
+                    糖質や脂質の
+                </span><span class="d-inline-block">
+                    コントロール、
+                </span><span class="d-inline-block">
+                    食事の適切な
+                </span><span class="d-inline-block">
+                    タイミング、
+                </span><span class="d-inline-block">
+                    筋肉を作る上で重要な
+                </span><span class="d-inline-block">
+                    タンパク質中心の
+                </span><span class="d-inline-block">
+                    食事の仕方など、
+                </span><span class="d-inline-block">
+                    一人一人に合った
+                </span><span class="d-inline-block">
+                    食事法を指導します。
+                </span>
+            </p>
+            <p class="line-bottom-comment text-end fw-bold fs-5 mb-5">
+                <span class="d-inline-block">
+                    1 日 3 食美味しく
+                </span><span class="d-inline-block">
+                    食べても痩せられます！
+                </span>
+            </p>
+        </div>
+        <!-- pc -->
+        <div class="d-none d-md-block">
+            <div class="row mx-auto pe-5">
+                <div class="col-md-4 text-center">
+                    <img class="line-phone-img-pc" src="phone.jpg">
+                </div>
+                <div class="col-md-8">
+                    <div class="line-top-comment fs-1 fw-bold mt-5 ps-5">
+                        聞きたいときに
+                    </div>
+                    <div class="ps-1 line-top-comment fs-1 fw-bold text-center">
+                        トレーナーにすぐ聞ける
+                    </div>
+                    <div class="ms-1 line-top-comment fs-1 fw-bold text-end">
+                        ラインでの食事サポート
+                    </div>
+                    <p class="line-support-desc text-center fs-4 mt-4 ms-1 me-1 text-end">
+                        <span class="d-inline-block">
+                            糖質や脂質の
+                        </span><span class="d-inline-block">
+                            コントロール、
+                        </span><span class="d-inline-block">
+                            食事の適切な
+                        </span><span class="d-inline-block">
+                            タイミング、
+                        </span><span class="d-inline-block">
+                            筋肉を作る上で重要な
+                        </span><span class="d-inline-block">
+                            タンパク質中心の
+                        </span><span class="d-inline-block">
+                            食事の仕方など、
+                        </span><span class="d-inline-block">
+                            一人一人に合った
+                        </span><span class="d-inline-block">
+                            食事法を指導します。
+                        </span>
+                    </p>
+                    <p class="line-bottom-comment text-end fw-bold fs-1 mb-5 text-center">
+                        <span class="d-inline-block">
+                            1 日 3 食美味しく
+                        </span><span class="d-inline-block">
+                            食べても痩せられます！
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mb-4">
+        <p class="contents d-inline px-4 fs-1 fw-bold">入会までの流れ</p>
+    </div>
+    <div class="join py-5 mb-5">
+        <div class="container">
+            <p class="contents-of-join fs-3 fw-bold text-center my-5 py-2">
+                <span class="d-inline-block">
+                    メール・お問い合わせ
+                </span><span class="d-inline-block">
+                    フォームにて、
+                </span><span class="d-inline-block">
+                    無料カウンセリング
+                </span><span class="d-inline-block">
+                    にお申込み
+                </span>
+            </p>
+            <p class="contents-of-join fs-3 fw-bold text-center my-5 py-2">
+                <span class="d-inline-block">
+                    担当者からご連絡、
+                </span><span class="d-inline-block">
+                    カウンセリング日決定
+                </span>
+            </p>
+            <p class="contents-of-join fs-3 fw-bold text-center my-5 py-2">
+                <span class="d-inline-block">
+                    店舗へ来店・
+                </span><span class="d-inline-block">
+                    カウンセリング
+                </span>
+            </p>
+            <p class="contents-of-join fs-3 fw-bold text-center my-5 py-2">
+                スタッフの説明
+            </p>
+            <p class="contents-of-join fs-3 fw-bold text-center my-5 py-2">
+                入会完了
+            </p>
+        </div>
+    </div>
+    <div class="pt-4 text-center mb-5">
+        <p class="fst-italic comment mb-0">
+            <span class="d-inline-block">
+                身体が変われば
+            </span><span class="d-inline-block">
+                人生が変わる。
+            </span>
+        </p>
+        <p class="fst-italic comment">
+            <span class="d-inline-block">
+                BodyBeat で人生最後の
+            </span><span class="d-inline-block">
+                ダイエットを
+            </span><span class="d-inline-block">
+                しましょう！
+            </span>
+        </p>
+    </div>
+    <div class="row mx-auto mb-5" id="form">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <form class="form py-4"
+                action="https://bodybeat.azurewebsites.net/api/HttpTrigger1?code=jufepOsJld1kA4IpdcX7rchyPEaaVZtvYkJsl53lUJxDUGL4mcaMHQ=="
+                method="post">
+                <div class="text-center mb-4">
+                    <p class="contents d-inline fs-2 fw-bold">
+                        <span class="d-inline-block">
+                            無料カウンセリング
+                        </span><span class="d-inline-block">
+                            お問い合わせ
+                        </span>
+                    </p>
+                </div>
+                <div class="w-75 mx-auto">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingName" placeholder="例）山田 太郎" name="name"
+                            required>
+                        <label for="floatingName">お名前</label>
+                        <span class="ps-3">例）山田 太郎</span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="tel" class="form-control" id="floatingTel" placeholder="例）000-0000-0000" name="tel"
+                            required>
+                        <label for="floatingTel">お電話番号</label>
+                        <span class="ps-3 example">例）000-0000-0000</span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingEmail" placeholder="例）example@××××.×××"
+                            name="email" required>
+                        <label for="floatingEmail">メールアドレス</label>
+                        <span class="ps-3">例）example@××××.×××</span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="floatingAge" placeholder="例）24" name="age"
+                            required>
+                        <label for="floatingAge">年齢</label>
+                        <span class="ps-3">例）24</span>
+                    </div>
+                    <select class="form-select mb-4" aria-label="Default select example" 　name="gender" required>
+                        <option value="" selected disabled>性別</option>
+                        <option value="女">女</option>
+                        <option value="男">男</option>
+                    </select>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="例）〇月△日□時頃" id="floatingTextarea1"
+                            style="height: 100px" required></textarea>
+                        <label for="floatingTextarea1">第一希望日時</label>
+                        <span class="ps-3">例）〇月△日□時頃</span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="例）〇月△日□時頃" id="floatingTextarea2"
+                            style="height: 100px" required></textarea>
+                        <label for="floatingTextarea2">第二希望日時</label>
+                        <span class="ps-3">例）〇月△日□時頃</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="btn-form fs-5 fw-bold py-3 w-25 g-recaptcha"
+                        data-sitekey="6LdN2hMbAAAAAFSNwHnbsgMe0PFxtRf673AT-ak4" data-callback="onSubmit">
+                        送信
+                    </button>
+                </div>
+                <input class="d-none" id="submit" type="submit">
+            </form>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row mx-auto mb-5">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 mb-3">
+            <button class="btn-line btn-bottom w-100 py-3 fs-4"
+                onclick="location.href='https://page.line.me/psr3283v?openQrModal=true'">
+                <i class="fab fa-line fa-2x"></i> <span class="d-inline-block">
+                    公式 LINE は
+                </span><span class="d-inline-block">
+                    こちら
+                </span>
+            </button>
+        </div>
+        <div class="col-md-4 mb-3">
+            <button class="btn-instagram btn-bottom w-100 py-3 fs-4"
+                onclick="location.href='https://www.instagram.com/bodybeat_hachioji/?hl=ja'">
+                <i class="fab fa-instagram fa-2x"></i> <span class="d-inline-block">
+                    Instagram は
+                </span><span class="d-inline-block">
+                    こちら
+                </span>
+            </button>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row mx-auto mb-5">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <table class="table table-desc fs-5">
+                <tr>
+                    <td class="pt-4 pb-3">会社名</td>
+                    <td class="pt-4 pb-3">Body Beat</td>
+                </tr>
+                <tr>
+                    <td class="pt-4 pb-3">創業者</td>
+                    <td class="pt-4 pb-3">塩澤　恭平</td>
+                </tr>
+                <tr>
+                    <td class="pt-4 pb-3">
+                        <span class="d-inline-block">
+                            設立
+                        </span><span class="d-inline-block">
+                            年月
+                        </span>
+                    </td>
+                    <td class="pt-4 pb-3">2018 年 5 月</td>
+                </tr>
+                <tr>
+                    <td class="pt-4 pb-3 align-middle">
+                        <span class="d-inline-block">
+                            会社
+                        </span><span class="d-inline-block">
+                            住所
+                        </span>
+                    </td>
+                    <td class="pt-4 pb-3">
+                        <div>
+                            東京都八王子市中町 8-3
+                        </div>
+                        <div>
+                            CIS ビル 402 号室
+                        </div>
+                        <div class="w-100">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7461666426993!2d139.3337701163593!3d35.65862503881674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191d52e0c4d4b1%3A0xd62a966e1da97d0e!2z44OR44O844K944OK44Or44OI44Os44O844OL44Oz44Kw44K444OgIEJvZHkgQmVhdA!5e0!3m2!1sja!2sjp!4v1623043672220!5m2!1sja!2sjp"
+                                width="100%" height="300rem" style="border:0;" allowfullscreen=""
+                                loading="lazy"></iframe>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="footer ps-5 py-4">
+        <ul>
+            <li class="f-list py-2">
+                <a onclick="location.href='#trainer'">
+                    | トレーナー紹介
+                </a>
+            </li>
+            <li class="f-list py-2">
+                <a onclick="location.href='#price'">
+                    | コース料金
+                </a>
+            </li>
+            <li class="f-list py-2">
+                <a onclick="location.href='#service'">
+                    | サービス内容
+                </a>
+            </li>
+            <li class="f-list py-2">
+                <a onclick="location.href='#ba'">
+                    | お客様ビフォーアフター
+                </a>
+            </li>
+            <li class="f-list py-2">
+                <a onclick="location.href='#voice'">
+                    | お客様の声
+                </a>
+            </li>
+            <li class="f-list py-2">
+                <a onclick="location.href='#form'">
+                    | お問い合わせ
+                </a>
+            </li>
+        </ul>
+    </div>
+    <span class="fixed-bottom d-none d-md-inline">
+        <button class="back-button fw-bold fs-5" onclick="location.href='#top'">
+            <div>ぺ</div>
+            <div>｜</div>
+            <div>ジ</div>
+            <div>ト</div>
+            <div>ッ</div>
+            <div>プ</div>
+            <div>へ</div>
+            <div>戻</div>
+            <div>る</div>
+        </button>
+    </span>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script>
+        const navLinks = document.querySelectorAll('.nav-item')
+        const menuToggle = document.getElementById('navbarSupportedContent')
+        navLinks.forEach((l) => {
+            l.addEventListener('click', () => {
+                new bootstrap.Collapse(menuToggle).toggle()
+            })
+        })
+
+        function onSubmit(token) {
+            document.getElementById("submit").click();
+        }
+    </script>
+</body>
+
+</html>
